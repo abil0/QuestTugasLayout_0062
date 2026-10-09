@@ -146,6 +146,14 @@ fun MainScreen() {
                 warnaKartu = R.color.card_4,
                 warnaAlamat = R.color.text_white
             )
+            Spacer(modifier = Modifier.weight(1f))
+
+            Text(
+                text = stringResource(R.string.copyright),
+                color = colorResource(R.color.text_primary),
+                fontSize = 10.sp
+            )
+            Spacer(modifier = Modifier.height(16.dp))
         }
     }
 }

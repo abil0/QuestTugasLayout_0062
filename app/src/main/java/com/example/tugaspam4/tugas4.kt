@@ -45,7 +45,14 @@ fun KartuMahasiswa(
             .height(88.dp),
         shape = RoundedCornerShape(12.dp),
         colors = CardDefaults.cardColors(containerColor = colorResource(warnaKartu))
-    ) {}
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(8.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {}
+    }
 }
 
 

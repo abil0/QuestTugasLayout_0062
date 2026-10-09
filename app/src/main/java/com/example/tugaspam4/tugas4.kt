@@ -102,6 +102,12 @@ fun MainScreen() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Spacer(modifier = Modifier.height(72.dp))
+        Text(
+            text = stringResource(R.string.title),
+            color = colorResource(R.color.text_primary),
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold
+        )
     }
 }
 

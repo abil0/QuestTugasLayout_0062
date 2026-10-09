@@ -70,12 +70,18 @@ fun KartuMahasiswa(
                     fontFamily = fontNama,
                     fontStyle = gayaNama
                 )
+                Text(
+                        text = stringResource(telepon),
+                        color = colorResource(R.color.text_cyan),
+                        fontSize = 11.sp
+                )
+                Text(
+                    text = stringResource(alamat),
+                    color = colorResource(warnaAlamat),
+                    fontSize = 11.sp
+                )
             }
-            Text(
-                text = stringResource(alamat),
-                color = colorResource(warnaAlamat),
-                fontSize = 11.sp
-            )
+
         }
     }
 }

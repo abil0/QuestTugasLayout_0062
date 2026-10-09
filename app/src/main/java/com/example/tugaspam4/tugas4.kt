@@ -71,15 +71,24 @@ fun KartuMahasiswa(
                     fontStyle = gayaNama
                 )
                 Text(
-                        text = stringResource(telepon),
-                        color = colorResource(R.color.text_cyan),
-                        fontSize = 11.sp
-                )
-                Text(
                     text = stringResource(alamat),
                     color = colorResource(warnaAlamat),
-                    fontSize = 11.sp
+                    fontSize = 12.sp
                 )
+                if (telepon != null) {
+                    Text(
+                        text = stringResource(telepon),
+                        color = colorResource(R.color.text_white),
+                        fontSize = 12.sp
+                    )
+                }
+                Image(
+                    painter = painterResource(R.drawable.logo_umy),
+                    contentDescription = stringResource(R.string.logo),
+                    modifier = Modifier.size(56.dp)
+                )
+
+
             }
 
         }

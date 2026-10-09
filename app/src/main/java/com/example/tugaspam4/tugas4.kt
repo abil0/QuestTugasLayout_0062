@@ -100,7 +100,9 @@ fun MainScreen() {
             .background(colorResource(R.color.screen_background))
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
-    ) {}
+    ) {
+        Spacer(modifier = Modifier.height(72.dp))
+    }
 }
 
 

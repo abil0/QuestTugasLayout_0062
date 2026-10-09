@@ -71,6 +71,11 @@ fun KartuMahasiswa(
                     fontStyle = gayaNama
                 )
             }
+            Text(
+                text = stringResource(alamat),
+                color = colorResource(warnaAlamat),
+                fontSize = 11.sp
+            )
         }
     }
 }

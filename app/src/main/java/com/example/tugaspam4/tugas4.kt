@@ -1,6 +1,5 @@
 package com.example.tugaspam4
 
-
 import androidx.annotation.ColorRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
@@ -29,3 +28,24 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+@Composable
+fun KartuMahasiswa(
+    @StringRes nama: Int,
+    @StringRes alamat: Int,
+    @ColorRes warnaKartu: Int,
+    @ColorRes warnaAlamat: Int,
+    @StringRes telepon: Int? = null,
+    fontNama: FontFamily? = null,
+    gayaNama: FontStyle? = null
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(88.dp),
+        shape = RoundedCornerShape(12.dp),
+        colors = CardDefaults.cardColors(containerColor = colorResource(warnaKartu))
+    ) {}
+}
+
+

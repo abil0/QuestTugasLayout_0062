@@ -108,6 +108,14 @@ fun MainScreen() {
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold
         )
+        Text(
+            text = stringResource(R.string.subtitle),
+            color = colorResource(R.color.text_primary),
+            fontSize = 12.sp,
+            fontWeight = FontWeight.SemiBold
+        )
+
+        Spacer(modifier = Modifier.height(24.dp))
     }
 }
 

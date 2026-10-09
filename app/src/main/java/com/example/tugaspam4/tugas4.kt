@@ -125,6 +125,13 @@ fun MainScreen() {
                 fontNama = FontFamily.Cursive,
                 gayaNama = FontStyle.Italic
             )
+            KartuMahasiswa(
+                nama = R.string.nama2,
+                telepon = R.string.nomer2,
+                alamat = R.string.alamat2,
+                warnaKartu = R.color.card_2,
+                warnaAlamat = R.color.text_yellow
+            )
         }
     }
 }

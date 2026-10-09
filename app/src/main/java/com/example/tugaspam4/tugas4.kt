@@ -51,7 +51,13 @@ fun KartuMahasiswa(
                 .fillMaxSize()
                 .padding(8.dp),
             verticalAlignment = Alignment.CenterVertically
-        ) {}
+        ) {
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = stringResource(R.string.logo),
+                modifier = Modifier.size(56.dp)
+            )
+        }
     }
 }
 

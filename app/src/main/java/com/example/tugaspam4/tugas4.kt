@@ -116,6 +116,16 @@ fun MainScreen() {
         )
 
         Spacer(modifier = Modifier.height(24.dp))
+        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            KartuMahasiswa(
+                nama = R.string.nama,
+                alamat = R.string.alamat,
+                warnaKartu = R.color.card_1,
+                warnaAlamat = R.color.text_yellow,
+                fontNama = FontFamily.Cursive,
+                gayaNama = FontStyle.Italic
+            )
+        }
     }
 }
 

@@ -7,6 +7,10 @@
     <string name="nama">Bambang Sumantri</string>
     <string name="alamat">Turi, Sleman</string>]
     <string name="nama2">Gibran Fathoni</string>
-    <string name="nomer">085436874190</string>
+    <string name="nomer2">085436874190</string>
     <string name="alamat2">Kasihan, Bantul</string>
+    <string name="nama3">Zhilal Fadhilah</string>
+    <string name="nomer3">085436874190</string>
+    <string name="alamat3">Depok, Sleman</string>
+
 </resources>

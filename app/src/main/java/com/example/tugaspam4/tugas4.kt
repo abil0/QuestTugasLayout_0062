@@ -139,6 +139,13 @@ fun MainScreen() {
                 warnaKartu = R.color.card_3,
                 warnaAlamat = R.color.text_white
             )
+            KartuMahasiswa(
+                nama = R.string.nama4,
+                telepon = R.string.nomer4,
+                alamat = R.string.alamat4,
+                warnaKartu = R.color.card_4,
+                warnaAlamat = R.color.text_white
+            )
         }
     }
 }

@@ -13,4 +13,7 @@
     <color name="card_2">#7B3FCF</color>
     <color name="card_3">#0000FF</color>
     <color name="card_4">#006400</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_yellow">#FFFF00</color>
+    <color name="text_cyan">#00E5FF</color>
 </resources>

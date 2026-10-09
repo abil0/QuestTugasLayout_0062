@@ -47,9 +47,7 @@ fun KartuMahasiswa(
         colors = CardDefaults.cardColors(containerColor = colorResource(warnaKartu))
     ) {
         Row(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(8.dp),
+            modifier = Modifier.fillMaxSize().padding(8.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Image(
@@ -58,9 +56,7 @@ fun KartuMahasiswa(
                 modifier = Modifier.size(56.dp)
             )
             Column(
-                modifier = Modifier
-                    .weight(1f)
-                    .padding(horizontal = 8.dp),
+                modifier = Modifier.weight(1f).padding(horizontal = 8.dp),
                 verticalArrangement = Arrangement.spacedBy(2.dp)
             ) {
                 Text(
@@ -70,27 +66,28 @@ fun KartuMahasiswa(
                     fontFamily = fontNama,
                     fontStyle = gayaNama
                 )
-                Text(
-                    text = stringResource(alamat),
-                    color = colorResource(warnaAlamat),
-                    fontSize = 12.sp
-                )
                 if (telepon != null) {
                     Text(
                         text = stringResource(telepon),
-                        color = colorResource(R.color.text_white),
-                        fontSize = 12.sp
+                        color = colorResource(R.color.text_cyan),
+                        fontSize = 11.sp
                     )
                 }
-                Image(
-                    painter = painterResource(R.drawable.logo_umy),
-                    contentDescription = stringResource(R.string.logo),
-                    modifier = Modifier.size(56.dp)
+                Text(
+                    text = stringResource(alamat),
+                    color = colorResource(warnaAlamat),
+                    fontSize = 11.sp
                 )
+            }
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = stringResource(R.string.logo),
+                modifier = Modifier.size(56.dp)
+            )
             }
         }
     }
-}
+
 
 @Composable
 fun MainScreen() {
@@ -126,23 +123,23 @@ fun MainScreen() {
                 gayaNama = FontStyle.Italic
             )
             KartuMahasiswa(
-                nama = R.string.nama2,
-                telepon = R.string.nomer2,
-                alamat = R.string.alamat2,
+                nama = R.string.nama_2,
+                telepon = R.string.phone_2,
+                alamat = R.string.alamat_2,
                 warnaKartu = R.color.card_2,
                 warnaAlamat = R.color.text_yellow
             )
             KartuMahasiswa(
-                nama = R.string.nama3,
-                telepon = R.string.nomer3,
-                alamat = R.string.alamat3,
+                nama = R.string.nama_3,
+                telepon = R.string.phone_3,
+                alamat = R.string.alamat_3,
                 warnaKartu = R.color.card_3,
                 warnaAlamat = R.color.text_white
             )
             KartuMahasiswa(
-                nama = R.string.nama4,
-                telepon = R.string.nomer4,
-                alamat = R.string.alamat4,
+                nama = R.string.nama_4,
+                telepon = R.string.phone_4,
+                alamat = R.string.alamat_4,
                 warnaKartu = R.color.card_4,
                 warnaAlamat = R.color.text_white
             )

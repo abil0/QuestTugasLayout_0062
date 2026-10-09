@@ -9,4 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="screen_background">#F8F7FF</color>
     <color name="text_primary">#1C1B1F</color>
+    <color name="card_1">#5F5B5B</color>
+    <color name="card_2">#7B3FCF</color>
+    <color name="card_3">#0000FF</color>
+    <color name="card_4">#006400</color>
 </resources>

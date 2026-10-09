@@ -87,12 +87,20 @@ fun KartuMahasiswa(
                     contentDescription = stringResource(R.string.logo),
                     modifier = Modifier.size(56.dp)
                 )
-
-
             }
-
         }
     }
+}
+
+@Composable
+fun MainScreen() {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(colorResource(R.color.screen_background))
+            .padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {}
 }
 
 

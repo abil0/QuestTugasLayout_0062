@@ -57,6 +57,20 @@ fun KartuMahasiswa(
                 contentDescription = stringResource(R.string.logo),
                 modifier = Modifier.size(56.dp)
             )
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 8.dp),
+                verticalArrangement = Arrangement.spacedBy(2.dp)
+            ) {
+                Text(
+                    text = stringResource(nama),
+                    color = colorResource(R.color.text_white),
+                    fontSize = 18.sp,
+                    fontFamily = fontNama,
+                    fontStyle = gayaNama
+                )
+            }
         }
     }
 }
